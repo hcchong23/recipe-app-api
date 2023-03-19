@@ -5,8 +5,6 @@ LABEL maintainer="hcchong.com"
 
 
 
-ENTRYPOINT $app/filename.sh
-
 ENV PYTHONUNBUFFERED 1
 
 COPY ./requirements.txt /tmp/requirements.txt
